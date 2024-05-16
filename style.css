@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: rgb(221, 237, 237);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    max-width: fit-content;
+    /* display: flex;
+    align-items: center; */
+    overflow: hidden;
+}
+.image{
+    overflow: hidden;
+    width: 100%;  
+    border-top-left-radius: 15px; /* Round only the top-left corner */
+    border-top-right-radius: 15px; /* Round only the top-right corner */ 
+}
+.image img {
+    width: 400px;
+    height: auto;
+    display: block;
+
+}
+.content{
+    text-align: center;
+    
+}
+.heading{
+    margin-top: 15px;
+}
+.para{
+    color: grey;
+    padding: 20px;
+}
+.button{
+    text-align: center;
+}
+
+.annualPlan{
+    background-color: rgba(228, 235, 235, 0.3);
+    padding: 10px;
+    max-width: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Center contents vertically */
+    justify-content: space-evenly; /* Distribute contents evenly */
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.icon {
+    flex: 1; /* Take up equal space */
+    text-align: center;
+}
+.planHeading{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 0;
+}
+
+.info{
+    flex: 2;
+    text-align: center;
+    /* display: inline-block; */
+    /* margin-right: 20px; */
+    padding-bottom: 4px;
+}
+.plan{
+    color: grey;
+    
+}
+.change {
+    flex: 1; /* Take up equal space */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    color: rgb(43, 52, 226);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.button{
+    margin: 0px 10px;
+}
+.proceed{
+    color: white;
+    background-color: rgb(43, 52, 226);
+    border: none;
+    padding: 13px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgb(27, 41, 41);
+}
+
+.cancel{
+    padding: 20px;
+    color: grey;
+   
+}
+
+.change:hover{
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+.proceed:hover{
+    cursor: pointer;
+    background-color: rgba(43, 52, 226, 0.5);
+}
+.cancel:hover{
+    cursor: pointer;
+    color: rgb(3, 3, 147);
+    font-weight: bold;
+}
+/* i{
+    background-color: black;
+} */
